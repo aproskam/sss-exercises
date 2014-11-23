@@ -17,11 +17,9 @@
 // We wrapped this code in a try-catch to prevent it
 // from crashing when the file has not been created
 
-try{
+
   var myStringModule = require('./lib/string-helper');
 
   console.log(myStringModule.titleize('give me titlecase'));
   // kick of test
-} catch(e){
-  console.log('Create your module at ./lib/string-helper');
-}
+

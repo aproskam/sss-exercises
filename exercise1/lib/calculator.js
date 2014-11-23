@@ -1,9 +1,11 @@
 var calculator = {
-  sum: function(){
+  sum: function(x, y){
     // Implement sum function
+    return x + y;
   },
-  multiply: function(){
+  multiply: function(x, y){
     // Implement multiply function
+    return x * y;
   }
 };
 
